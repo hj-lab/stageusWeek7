@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="messageBoardC.css">
+</head>
+<body>
+    <div>
+        <input type="button" id="GoMain" value="Main" onclick="location.href='index.html'">
+    </div>
+    <div id="messageBoardParent">
+        <div id="messageBoardComment">Message Board</div>
+        
+        <div id="writeBtnParent">
+            <input type="button" id="writeBtn" value="글쓰기" onclick="location.href='write.html'">
+        </div>
+
+        <!--필요 x-->
+
+        <table id="boardList">
+        <thread> <!-- 1행 -->
+            <td>번호</td>
+            <td>제목</td>
+            <td>작성자</td>
+            <td>날짜</td>
+        </thread>
+        <tbody>
+            <tr onclick="location.href='showPost.html'"> <!-- 2행-->
+                <td>1</td>
+                <td>제목1</td>
+                <td>조희주</td>
+                <td>2023-10-30</td>
+            </tr>
+        </tbody>
+    
+    </div>
+
+    
+</body>
+</html>

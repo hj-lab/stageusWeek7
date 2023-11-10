@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="modifyMyInfoC.css">
+</head>
+<body>
+    <div>
+        <input type="button" id="GoMain" value="Main" onclick="location.href='index.html'">
+    </div>
+    <div id="informationParent">
+        <h1 id="InformationComment">Modify My Information</h1>
+        <form name="myform" action="modifyMyInfoJ.jsp" id="myInformation" onsubmit="check(event)">
+            <div>id : <input type="text" name="idValue" class="myinformationText" placeholder="id"> </div>
+            <div>pw : <input type="text" name="pwValue" class="myinformationText" placeholder="pw"> </div>
+            <div>pw Check : <input type="text" name="pwCheckValue" class="myinformationText" placeholder="pw check"> </div>
+            <div>이름 : <input type="text" name="nameValue" class="myinformationText" placeholder="이름"> </div>
+            <div>생년월일 : <input type="date" name="birthValue" class="myinformationText" placeholder="생년월일"> </div>
+            <div>전화번호 : <input type="tel" name="telValue" class="myinformationText" placeholder="전화번호"> </div>
+            <input type="submit" class="myinformationMoreBtn" value="수정하기">
+        </form>
+
+
+        <script>
+            var pw = String(document.getElementById("pwValue").value)
+            var pwCheck = String(document.getElementById("pwCheckValue").value)
+
+            if(pw != pwCheck){
+            alert("비밀번호 확인이 틀렸습니다.")
+            event.preventDefault();
+            return false 
+        }
+
+        </script>
+    
+    </div>
+</body>
+</html>

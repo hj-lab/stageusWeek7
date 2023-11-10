@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Playfair+Display:ital,wght@1,800&display=swap');
+
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: darkseagreen;
+
+}
+
+#informationParent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    margin-top: 50px;
+    background-color: rgb(157, 205, 157);
+    border-radius: 10px;
+    
+}
+
+#myInformation{
+    margin : 20px;
+}
+
+#InformationComment{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+    color:bisque;
+    padding-top : 40px;
+}
+
+.myinformationText{
+    width : 300px;
+    margin : 10px;
+    padding : 5px;
+    border : none;
+
+    border-radius: 10px;
+
+}
+
+#myinformationMore{
+    margin : 20px;
+}
+.myinformationMoreBtn{
+    padding: 7px 30px;
+    margin:10px;
+    border:none;
+    border-radius: 10px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.myinformationMoreBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  #GoMain{
+    width : 60px;
+    height : 25px;
+    border : none;
+    border-radius: 10px;
+
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size : 15px;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#GoMain:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#id{
+display : flex;
+flex-direction: row;
+
+}
