@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="../css/idFindC.css">
+</head>
+<body>
+    <div>
+        <input type="button" id="GoMain" value="Main" onclick="location.href='../index.html'">
+    </div>
+    
+    <div id="idFindParent">
+        <h1 id="idFindComment">Find id</h1>
+
+        <form name="myform" action="../jsp/idFindJ.jsp" id="toFindid">
+            <div>이름 : <input type="text" name="nameValue" class="idFindText" placeholder="이름"> </div>
+            <div>생년월일 : <input type="date" name="birthValue" class="idFindText" placeholder="생년월일"> </div>
+            <div>전화번호 : <input type="tel" name="telValue" class="idFindText" placeholder="전화번호"> </div>
+            <input type="submit" id="idFindBtn" value="id 찾기">
+        </form>
+
+        
+    </div>
+</body>
+</html>

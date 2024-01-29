@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Playfair+Display:ital,wght@1,800&display=swap');
+
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: darkseagreen;
+
+}
+
+#showPostParent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px; 
+
+    padding-bottom : 20px;
+    padding-top : 20px;
+    /* 근데 algin item했는데 왜 수직 중앙 정렬 안됨 ? */
+
+    width : 90%;
+
+    background-color: rgb(157, 205, 157);
+    border-radius: 10px;
+}
+
+#post{
+    width : 100%;
+    background-color: rgb(171, 221, 171);
+}
+
+#postTitle{
+    padding-left: 10px;
+}
+#postInform{
+    display: flex;
+    flex-direction: row;
+
+    width : 100%;
+  
+}
+
+#postId{
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+#postDate{
+    margin-right : auto;
+}
+
+#rightBtn{
+    padding-right : 20px;
+}
+
+#transformBtn{
+    width : 40px;
+   height : 20px;
+    border : none;
+    border-radius: 10px;
+
+    margin-bottom : 20px;
+}
+
+#postContent{
+    padding : 10px;
+}
+
+#comment{
+    width: 100%;
+}
+
+#commentIn{
+    width: 90%;
+    height : fit-content;
+    margin-top : 10px;
+    margin-left: 10px;
+
+    vertical-align: middle;
+}
+
+#commentBtn{
+    width : 80px;
+   height : 30px;
+    border : none;
+    border-radius: 10px;
+
+    margin-bottom : 20px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#commentBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+#commentList{
+    width : 95%;
+    align-items : left;
+    /* border : 2px solid red; */
+}
+
+tr,td{
+    padding : 10px;
+
+    border-bottom : 1px solid black;
+}
+
+table{
+    text-align: center;
+    border-top : 1px solid black;
+    border-collapse: collapse;
+}
+
+#GoMain{
+    width : 60px;
+    height : 25px;
+    border : none;
+    border-radius: 10px;
+
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size : 15px;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#GoMain:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }

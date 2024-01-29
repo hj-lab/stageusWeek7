@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Playfair+Display:ital,wght@1,800&display=swap');
+
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: darkseagreen;
+
+}
+
+#delParent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px; 
+    /* 근데 algin item했는데 왜 수직 중앙 정렬 안됨 ? */
+
+    width : 500px;
+    height: 500px;
+
+    background-color: rgb(157, 205, 157);
+    border-radius: 10px;
+}
+
+
+#delBtn{
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    margin-top : 20px;
+    border:none;
+    border-radius: 10px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #delBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
